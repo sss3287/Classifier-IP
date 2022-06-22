@@ -131,7 +131,7 @@ def decision():
         pass'''
 
 # both scores are same
-# absolute value look for this
+# absolute value look
 # ipv6 hitlist and ipv6 ip id capture
 def a_derivative (L):
     a = [y - x for x,y in zip(L,L[1:])]
