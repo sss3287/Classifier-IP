@@ -38,9 +38,8 @@ def entropy_s(values, N):
         ODD_COUNT +=1
 
 def entropy_xprime(values, N):
-    b = [a_derivative(values)]
-    c = np.array(b)
-    d = abs(c)
+    b = np.array(a_derivative(values))
+    d = abs(b)
     a= scipy.stats.entropy(d,base=2)
     global CONSTANT_COUNT,RANDOM_COUNT,LOCAL_COUNT,GLOBAL_COUNT,ODD_COUNT
 
@@ -54,9 +53,8 @@ def entropy_xprime(values, N):
         ODD_COUNT +=1
 
 def entropy_sprime(values, N):
-    b = [a_derivative(values)]
-    c = np.array(b)
-    d = abs(c)
+    b = np.array(a_derivative(values))
+    d = abs(b)
     a = scipy.stats.entropy(d,base=2)
     global CONSTANT_COUNT,RANDOM_COUNT,LOCAL_COUNT,GLOBAL_COUNT,ODD_COUNT
 
@@ -148,7 +146,7 @@ def main():
     entropy_s(a, 100)
     entropy_x(b,50)
     entropy_sprime(a,100)
-    #entropy_xprime(b, 50)
+    entropy_xprime(b, 50)
     standard_deviation_s(a, 100)
     standard_deviation_x(b, 50)
     #standard_deviation_xprime(b, 50)
