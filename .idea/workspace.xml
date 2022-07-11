@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a1a4f2e-3b52-4d2b-ade0-7592fd2381e5" name="Changes" comment="Classifier updated (resolved error)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="9a1a4f2e-3b52-4d2b-ade0-7592fd2381e5" name="Changes" comment="Classifier updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656177908926</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Classifier updated">
+      <created>1657579266303</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657579266308</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,7 +140,8 @@
     <MESSAGE value="Classifier initial" />
     <MESSAGE value="Classifier initial1" />
     <MESSAGE value="Classifier updated (resolved error)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classifier updated (resolved error)" />
+    <MESSAGE value="Classifier updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classifier updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
